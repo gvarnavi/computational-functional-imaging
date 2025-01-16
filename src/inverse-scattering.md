@@ -425,7 +425,7 @@ function raster_legend(include, dict, width) {
 # Inverse Scattering Problem
 
 - The scattering object can be reconstructed using iterative algorithms:
-  - Forward Model &rarr; reconstructed object and illumination accurately reproduce intensities
+  - Forward Model &rarr; reconstructed object and illumination accurately reproduce data
   - Redundancy &rarr; reconstructed object is self-consistent with adjacent scan positions
 
 <div class="grid grid-cols-2" style="margin-top: 0; margin-bottom: 0;">

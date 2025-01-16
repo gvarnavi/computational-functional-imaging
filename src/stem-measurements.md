@@ -276,8 +276,8 @@ function raster_legend(include, dict, width) {
 
 - Converged electron probe scanned across thin-sample &rarr;
   - acquires phase-shifts due to sample interactions
-- Set of diffracted beam _phase-less_ intensities &rarr;
-  - collected on far-field pixelated detector ("4D-STEM")
+- Set of diffracted beam _intensities_ &rarr;
+  - collected on far-field pixelated detector
 
 <div class="grid grid-cols-3">
   <div style="max-width:250px;">

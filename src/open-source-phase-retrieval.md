@@ -19,7 +19,7 @@ const img_STO_middle = FileAttachment(
 const img_STO_bottom = FileAttachment(
   "data/mat-sci-examples_STO-bottom.png",
 ).href;
-const img_style = "object-fit:contain;";
+const img_style = "object-fit:cover;";
 
 const img_VLP = FileAttachment("data/yues-vlps.svg").href;
 const img_Apo = FileAttachment("data/berks-apo.svg").href;
@@ -31,9 +31,7 @@ import { return_resized_img } from "./components/ImageUtilities.js";
 
 <div id="py4dstem-container"> ${py4dstem_svg} </div>
 
-- Suite of open-source STEM phase retrieval algorithms:
-  - "in-focus" techniques: center-of-mass (COM) imaging and direct ptychography (SSB/WDD)
-  - "out-of-focus" techniques: tilt-corrected BF-STEM (parallax) and iterative ptychography
+- Suite of open-source STEM phase retrieval algorithms
 - User-friendly and GPU-accelerated code
   - Check out our tutorial notebooks[^1] and methods paper[^2]
 
@@ -71,20 +69,20 @@ ptycho = py4DSTEM.process.phase.SingleslicePtychography(
   </summary>
 
 - Reconstructions of a variety of materials classes[^3]
-- Reconstructions using a number of different detectors
+  - using a number of different detectors
 
 <div class="grid grid-cols-3" style="grid-auto-rows: auto;">
   <div class="img-container" style="min-height:300px;">
-    Ti islands on graphene
-    ${resize((width,height)=> return_resized_img(img_Ti,width,height-16,img_style))}
+    titanium islands on graphene
+    ${resize((width)=> return_resized_img(img_Ti, width, 280, img_style))}
   </div>
   <div class="img-container" style="min-height:300px;">
-    few-layer hBN
-    ${resize((width,height)=> return_resized_img(img_hBN,width,height-16,img_style))}
+    hexagonal boron nitride
+    ${resize((width)=> return_resized_img(img_hBN, width, 280, img_style))}
   </div>
   <div class="img-container" style="min-height:300px;">
     low-voltage CMOS detector
-    ${resize((width,height)=> return_resized_img(img_cmos,width,height-16,img_style))}
+    ${resize((width)=> return_resized_img(img_cmos, width, 280, img_style))}
   </div>
 </div>
 </details>
@@ -98,7 +96,7 @@ ptycho = py4DSTEM.process.phase.SingleslicePtychography(
 - Reconstructions of a variety of dose-sensitive samples[^4]
   - plunge-frozen in vitreous ice &rarr; single-particle analysis
 
-<div class="img-container" style="min-height:300px;">
+<div class="img-container">
     Virus-like particles
     ${resize((width)=> return_resized_img(img_VLP,width,"auto;",img_style))}
 </div>

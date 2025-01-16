@@ -10,7 +10,8 @@ const apng = FileAttachment("data/4dstem-defocused.apng")
 :::hero
 
 # Computational & Functional Imaging of Materials
-> Dr. Georgios Varnavides | UCB, LBNL  
+> Dr. Georgios Varnavides | UC Berkeley, Berkeley Lab   
+> https://gvarnavides.com/computational-functional-imaging
 
 :::
 

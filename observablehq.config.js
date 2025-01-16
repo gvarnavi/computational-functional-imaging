@@ -27,6 +27,7 @@ export default {
       name: "Open-Source Phase Retrieval",
       path: "open-source-phase-retrieval",
     },
+    { name: "About This Presentation", path: "about" },
   ],
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
