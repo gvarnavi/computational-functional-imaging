@@ -107,6 +107,6 @@ ptycho = py4DSTEM.process.phase.SingleslicePtychography(
 
 [^2]: Iterative Phase Retrieval Algorithms for Scanning Transmission Electron Microscopy, [arXiv:2309.05250](https://arxiv.org/abs/2309.05250)
 
-[^3]: Materials-science samples & imaging credit: K.Reidy, D. Byrne, F. Allen, B. Cohen, H. Shih, D. Kepaptsoglou, C. Ophus, S. Ribet
+[^3]: Materials-science samples & imaging credit: K.Reidy, D. Byrne, F. Allen, D. Kepaptsoglou, C. Ophus, S. Ribet
 
 [^4]: Life-sciences samples & imaging credit: Y. Yu, K. Küçükoglu, S. Ribet
